@@ -1,0 +1,1 @@
+python scripts\sbm_ai_monitor.py --N 400000 --H 18 --shift_n 200000 --obs popcnt_parity --long_stable_L 2000 --pre_mode plateau --post_mode lcg --out OUT_SBM_AI_PLATEAU_TO_LCG_H18_400K_L2000 
