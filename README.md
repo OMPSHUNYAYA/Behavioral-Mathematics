@@ -2,6 +2,8 @@
 
 **Deterministic Structural Behavioral Mathematics — Without Modifying Classical Systems**
 
+![Verify](https://github.com/OMPSHUNYAYA/Behavioral-Mathematics/actions/workflows/verify.yml/badge.svg)
+
 ![SBM](https://img.shields.io/badge/SBM-Structural%20Behavioral%20Mathematics-blue)
 ![Deterministic](https://img.shields.io/badge/Deterministic-Replay--Verified-green)
 ![Invariant](https://img.shields.io/badge/Invariant-phi%28%28m%2Ca%2Cs%29%29%20%3D%20m-green)
