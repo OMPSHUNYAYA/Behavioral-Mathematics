@@ -1,0 +1,1 @@
+python verify\verify_sbm.py --outputs outputs --use_registry --report verify\last_verify_report.txt

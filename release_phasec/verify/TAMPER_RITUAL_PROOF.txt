@@ -1,0 +1,36 @@
+SBM TAMPER RITUAL (INTEGRITY PROOF)
+
+Target operator: AI_FRACTURE_PLATEAU_TO_LCG (Phase C)
+Target file: outputs\ai_fracture\sbm_ai_metrics.csv
+
+Baseline verification:
+Command:
+python verify\verify_sbm.py --outputs outputs --use_registry --report verify\last_verify_report_before_tamper.txt
+Result:
+OVERALL_STATUS: PASS
+
+Tamper action:
+Changed one digit:
+spike_at_n,0 -> spike_at_n,1
+(no manifest update performed)
+
+Tamper verification:
+Command:
+python verify\verify_sbm.py --outputs outputs --use_registry --report verify\last_verify_report_after_tamper.txt
+Expected failure mode:
+hash_mismatch for sbm_ai_metrics.csv
+Result:
+OVERALL_STATUS: FAIL
+
+Restore action:
+Restored original file from:
+verify\sbm_ai_metrics.csv.BAK
+
+Restore verification:
+Command:
+python verify\verify_sbm.py --outputs outputs --use_registry --report verify\last_verify_report_restored.txt
+Result:
+OVERALL_STATUS: PASS
+
+Conclusion:
+SBM conformance verification deterministically detects any unauthorized artifact modification via SHA-256 mismatch.
