@@ -1,0 +1,12 @@
+metric,value
+op,xorshift_parity
+N,3000000
+H,19
+alpha_N,524288
+E_N,0.174762666667
+Hs_N,13.169798337986
+C_N,0.883042098648
+emergence_count,524288
+last_emergence_n,1507327
+mean_gap,2.874999761581
+var_gap,708612.988183922833

@@ -1,0 +1,2 @@
+python scripts\sbm_test.py --op xorshift_parity --N 3000000 --H 19 --out OUT_SBM_XORSHIFT_B_PRIMARY 
+python scripts\sbm_test.py --op xorshift_parity --N 3000000 --H 19 --out OUT_SBM_XORSHIFT_B_REPLAY 
