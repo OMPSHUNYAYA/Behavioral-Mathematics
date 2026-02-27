@@ -1,0 +1,12 @@
+metric,value
+op,digitsum_mod9
+N,20000
+H,12
+alpha_N,9
+E_N,0.000450000000
+Hs_N,2.302585092994
+C_N,0.232502447323
+emergence_count,9
+last_emergence_n,10
+mean_gap,1.000000000000
+var_gap,0.000000000000

@@ -1,0 +1,22 @@
+{
+  "sbm_version": "2.0",
+  "op": "digitsum_mod9",
+  "N": 20000,
+  "H": 12,
+  "bands": {
+    "t1": 3,
+    "t2": 11,
+    "t3": 31,
+    "t4": 101
+  },
+  "profile": {
+    "alpha_N": 9,
+    "E_N": 0.00045,
+    "Hs_N": 2.302585092994,
+    "C_N": 0.232502447323,
+    "emergence_count": 9,
+    "last_emergence_n": 10,
+    "mean_gap": 1.0,
+    "var_gap": 0.0
+  }
+}
