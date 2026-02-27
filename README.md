@@ -171,7 +171,7 @@ Visualization utilities:
 
 - [`viz/`](viz/)  
 - [`viz/plot_alpha_curve.py`](viz/plot_alpha_curve.py)  
-- [`viz/README.md`](viz/README.txt)  
+- [`viz/README.txt`](viz/README.txt)
 - [`viz/out/`](viz/out/)
 
 Example:
