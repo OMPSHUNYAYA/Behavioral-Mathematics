@@ -152,7 +152,6 @@ Authoritative replay reference anchors:
 - [`reference_outputs/`](reference_outputs/)  
 - [`reference_outputs/phase_a/`](reference_outputs/phase_a/)  
 - [`reference_outputs/phase_b/`](reference_outputs/phase_b/)  
-- [`reference_outputs/phase_c/`](reference_outputs/phase_c/)
 
 These provide deterministic replay anchors and structural fingerprints.
 
@@ -172,7 +171,7 @@ Visualization utilities:
 
 - [`viz/`](viz/)  
 - [`viz/plot_alpha_curve.py`](viz/plot_alpha_curve.py)  
-- [`viz/README.md`](viz/README.md)  
+- [`viz/README.md`](viz/README.txt)  
 - [`viz/out/`](viz/out/)
 
 Example:
