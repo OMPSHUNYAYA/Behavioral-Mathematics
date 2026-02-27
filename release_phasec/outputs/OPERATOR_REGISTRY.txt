@@ -1,0 +1,22 @@
+SBM OPERATOR REGISTRY (CANONICAL EVIDENCE SET)
+
+AI_FRACTURE_PLATEAU_TO_LCG (Phase C)
+primary_folder: outputs\ai_fracture
+replay_folder: outputs\ai_fracture_replay
+claim: manifest-identical replay determinism
+
+COLLATZ_SC
+primary_folder: outputs\collatz_SC
+claim: curated representative SC bundle
+
+DIGITSUM_FA
+primary_folder: outputs\digitsum_FA
+claim: curated representative FA bundle
+
+XORSHIFT_DCF
+primary_folder: outputs\xorshift_DCF
+claim: curated representative DCF bundle
+
+SHA1_DCF
+primary_folder: outputs\sha1_DCF
+claim: curated representative DCF bundle

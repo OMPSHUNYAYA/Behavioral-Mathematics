@@ -1,0 +1,6 @@
+SBM OPERATOR REGISTRY (PHASE C — DETERMINISTIC BUNDLES)
+
+AI_FRACTURE_PLATEAU_TO_LCG (Phase C)
+primary_folder: outputs\ai_fracture
+replay_folder: outputs\ai_fracture_replay
+claim: manifest-identical replay determinism
