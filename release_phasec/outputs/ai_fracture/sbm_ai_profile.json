@@ -1,0 +1,38 @@
+{
+  "sbm_ai_version": "1.2",
+  "N": 400000,
+  "H": 18,
+  "M": 4294967296,
+  "seed": 123456789,
+  "shift_n": 200000,
+  "obs": "popcnt_parity",
+  "pre_mode": "plateau",
+  "post_mode": "lcg",
+  "params_pre": {
+    "a": 1664525,
+    "c": 1013904223
+  },
+  "params_post": {
+    "a": 22695477,
+    "c": 1
+  },
+  "profile": {
+    "alpha_N": 140035,
+    "E_N": 0.3500875,
+    "Hs_N": 11.849654811393,
+    "C_N": 0.918633450019,
+    "emergence_count": 140035,
+    "last_emergence_n": 399998,
+    "mean_gap": 2.856434865818,
+    "var_gap": 285592.2526798245,
+    "alpha_before_shift": 18,
+    "alpha_at_shift": 19,
+    "alpha_after": 140035,
+    "max_stable_run": 199982,
+    "max_spike": 1,
+    "spike_at_n": 0,
+    "fracture_candidate_count": 1,
+    "fracture_first_at_n": 199983,
+    "long_stable_L": 2000
+  }
+}

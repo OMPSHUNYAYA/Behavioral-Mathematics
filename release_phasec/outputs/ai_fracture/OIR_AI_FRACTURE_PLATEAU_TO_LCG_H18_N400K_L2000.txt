@@ -1,0 +1,59 @@
+OPERATOR IDENTITY RECORD (OIR)
+
+operator_name: AI_FRACTURE_PLATEAU_TO_LCG
+sbm_ai_version: 1.2
+domain: 32-bit state stream over modulus M
+M: 4294967296
+seed: 123456789
+
+observation: popcnt_parity
+definition_obs(x): popcount(x) mod 2
+
+horizon: H = 18
+run_length: N = 400000
+shift_n: 200000
+
+pre_mode: plateau
+post_mode: lcg
+
+params_pre:
+a = 1664525
+c = 1013904223
+
+params_post:
+a = 22695477
+c = 1
+
+artifact_set_required:
+
+sbm_ai_results.csv
+
+sbm_ai_alphabet.csv
+
+sbm_ai_metrics.csv
+
+sbm_ai_profile.json
+
+sbm_ai_manifest.sha256
+
+determinism_claim:
+Given the same command and parameters, the manifest file must match exactly between primary and replay runs.
+
+verification_method:
+Manifest equality via file compare (fc) must show no differences.
+
+profile_summary:
+alpha_before_shift = 18
+alpha_at_shift = 19
+alpha_after = 140035
+alpha_N = 140035
+E_N = 0.3500875
+Hs_N = 11.849654811393
+C_N = 0.918633450019
+max_stable_run = 199982
+fracture_first_at_n = 199983
+fracture_candidate_count = 1
+last_emergence_n = 399998
+mean_gap = 2.856434865818
+var_gap = 285592.2526798245
+long_stable_L = 2000
