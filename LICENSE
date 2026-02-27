@@ -1,0 +1,153 @@
+Open Standard License — SBM
+
+Shunyaya Behavioral Mathematics (SBM)
+
+Permission
+
+Permission is hereby granted, free of charge, to any person or organization to use, implement, reproduce, publish, distribute, reference, extend, or incorporate the SBM Standard specification, in whole or in part, without restriction.
+
+This permission applies to both commercial and non-commercial use.
+
+No registration required.
+No fees required.
+No approval required.
+
+No Restrictions
+
+This Open Standard imposes no legal, technical, or commercial restrictions on use or implementation of the SBM specification.
+
+Attribution is not required.
+No endorsement or certification is implied.
+No runtime obligations apply.
+No implementation approval is required.
+
+Correctness and conformance are governed by deterministic structural behavior and replay identity — not by licensing terms.
+
+Modified or extended versions must not be represented as the canonical SBM Standard unless they preserve the normative structural requirements defined herein.
+
+Recommended Attribution (Optional)
+
+Attribution is recommended but not required.
+
+Preferred form:
+
+Implements Shunyaya Behavioral Mathematics (SBM).
+
+Attribution must not imply endorsement by the authors or the Shunyaya framework.
+
+Use of the name “Shunyaya Behavioral Mathematics (SBM)” must not imply:
+
+• endorsement
+• certification
+• official compliance approval
+• governance authority
+• authorship by the original authors
+
+Scope of the Standard
+
+Shunyaya Behavioral Mathematics (SBM) defines a deterministic structural behavioral framework governing ordered system evolution under replay-verifiable discipline.
+
+SBM establishes:
+
+Conservative collapse invariant:
+
+phi((m,a,s)) = m
+
+Deterministic bounded horizon:
+
+H >= 1
+
+Window discipline:
+
+W_H(t) = {t-H+1, ..., t}
+
+Deterministic structural state:
+
+X(t) = (m(t), a(t), s(t))
+
+Replay identity discipline:
+
+B_A = B_B
+
+SBM does not:
+
+• modify classical mathematics
+• redefine domain equations
+• alter measured magnitude
+• introduce predictive models
+• perform probabilistic inference
+• simulate future states
+• inject control authority
+• guarantee safety outcomes
+
+SBM governs deterministic structural observability — not causation.
+
+Conformance
+
+An implementation conforms to the SBM Open Standard if it:
+
+• Preserves magnitude exactly:
+phi((m,a,s)) = m
+
+• Uses deterministic bounded horizon evaluation H
+
+• Maintains finite structural alphabet discipline
+
+• Implements deterministic structural state transitions
+
+• Produces byte-identical artifacts under independent replay:
+B_A = B_B
+
+• Avoids probabilistic or tolerance-based arbitration
+
+Any implementation introducing:
+
+• randomness
+• probabilistic inference
+• adaptive thresholds
+• predictive extrapolation
+• tolerance-based comparison
+• nondeterministic output ordering
+• runtime alphabet expansion
+• magnitude modification
+
+does not conform to the SBM Open Standard.
+
+Independent implementations are permitted and encouraged.
+
+Relationship to Other Licenses
+
+This Open Standard applies only to the SBM specification and its normative structural definitions.
+
+Reference implementations, example scripts, traces, adapters, datasets, diagrams, visualizations, or tooling may be released under separate licenses if explicitly stated.
+
+This license governs the SBM Standard specification text only. It does not automatically apply to reference implementations unless explicitly stated.
+
+Implementation licensing does not alter structural conformance requirements of this Standard.
+
+Nothing in this Standard grants trademark rights.
+
+Responsibility
+
+Use of SBM in operational, infrastructure, AI, governance, industrial, financial, or safety-critical contexts is undertaken entirely at the user’s own responsibility.
+
+SBM provides:
+
+• deterministic structural state computation
+• bounded horizon evaluation
+• replay-verifiable artifact reproducibility
+• structural alphabet discipline
+
+It does not provide operational authority, regulatory certification, or safety guarantees.
+
+No Warranty
+
+THE STANDARD IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE USE OF THIS STANDARD.
+
+Closing Statement
+
+Shunyaya Behavioral Mathematics (SBM) is published as an Open Standard to maximize deterministic reproducibility, structural discipline, and independent verification of behavioral evolution across domains.
+
+It is governed by structure — not by permission.
