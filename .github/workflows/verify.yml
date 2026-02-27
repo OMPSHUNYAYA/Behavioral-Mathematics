@@ -1,0 +1,26 @@
+name: SBM Verify (A+B+C)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout (with LFS)
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Ensure LFS objects present
+        run: git lfs pull
+
+      - name: Run verification (A+B+C)
+        shell: cmd
+        run: |
+          cd verify
+          RUN_VERIFY_ALL_PHASES.cmd
